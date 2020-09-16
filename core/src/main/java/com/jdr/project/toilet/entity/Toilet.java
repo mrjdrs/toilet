@@ -20,8 +20,8 @@ import java.util.Set;
  */
 @Data
 @EqualsAndHashCode(callSuper = true)
-@Entity(name = "t_toilet_paper_towel")
-@Table(name = "t_toilet_paper_towel")
+@Entity(name = "t_toilet_toilet")
+@Table(name = "t_toilet_toilet")
 public class Toilet extends BaseEntity {
 
     /**
