@@ -1,6 +1,5 @@
 package com.jdr.project.toilet.common.enums;
 
-import com.sun.org.apache.regexp.internal.REUtil;
 import lombok.Getter;
 
 import java.util.ArrayList;

@@ -23,7 +23,7 @@ public class ToiletRepoService {
      * 查找可用的厕所
      */
     public List<Toilet> findAll() {
-        return repository.findAll().stream().filter(item -> item.getValid()).collect(Collectors.toList());
+        return repository.findAll().stream().filter(item -> !item.getIsDelete()).collect(Collectors.toList());
     }
 
 }

@@ -9,6 +9,7 @@ import com.jdr.project.toilet.service.bo.PaperTowelBO;
 import com.jdr.project.toilet.service.bo.PitBO;
 import com.jdr.project.toilet.service.bo.WashBasinBO;
 import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -22,6 +23,7 @@ import java.util.stream.Collectors;
  */
 @Service
 @AllArgsConstructor
+@Slf4j
 public abstract class AbstractUser implements IUser {
 
     private final ToiletRepoService toiletRepoService;

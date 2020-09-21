@@ -43,10 +43,9 @@ class BaseEntity implements Serializable {
     private Date updatedDate;
 
     /**
-     * 是否有效
-     * true=有效，false=无效
+     * 逻辑删除；0=未删除，1=已删除
      */
-    @Column(name = "valid")
-    private Boolean valid;
+    @Column(name = "is_delete")
+    private Boolean isDelete;
 
 }
